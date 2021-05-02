@@ -8,10 +8,20 @@ import { useState } from "react";
 const MyApp = ({ Component, pageProps }) => {
   const [episodeList, setEpisodeList] = useState([]);
   const [currentEpisodeIndex, setCurrentEpisodeIndex] = useState(0);
+  const [isPlaying, setisPlaying] = useState(false);
 
   const play = (episode) => {
     setEpisodeList([episode]);
     setCurrentEpisodeIndex(0);
+    setisPlaying(true);
+  };
+
+  const togglePlay = () => {
+    setisPlaying(!isPlaying);
+  };
+
+  const setPlayingState = (state: boolean) => {
+    setisPlaying(state);
   };
 
   return (
@@ -19,7 +29,10 @@ const MyApp = ({ Component, pageProps }) => {
       value={{
         episodeList,
         currentEpisodeIndex,
+        togglePlay,
         play,
+        setPlayingState,
+        isPlaying,
       }}
     >
       <div className={styles.wrapper}>

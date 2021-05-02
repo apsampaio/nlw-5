@@ -1,38 +1,41 @@
-<p align="center"><img src="https://i.imgur.com/NZfsD1p.png"></p>
+<p align="center">
+    <img alt="Plataforma" src="https://img.shields.io/static/v1?label=Plataforma&message=PC&color=04d361&labelColor=8257e5">
+    <a aria-label="Completado" href="https://nextlevelweek.com/episodios/react/5/edicao/5">
+        <img alt="Podcastr" src="https://img.shields.io/badge/Podcastr-NLW 5.0-04d361?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg==&labelColor=8257e5"></img>
+    </a>
+</p>
 
-## Usage
+![Podcastr preview](.github/app-preview.png)
 
-### Create an App
+<div align="center">
+  <img src=".github/logo.svg" alt="Podcastr logo">
+</div>
 
-```
-# with npx
-$ npx create-nextron-app my-app --example with-typescript
+<h4 align="center">
+  <strong>O melhor para você ouvir, sempre.</strong>
+</h4>
 
-# with yarn
-$ yarn create nextron-app my-app --example with-typescript
+---
 
-# with pnpx
-$ pnpx create-nextron-app my-app --example with-typescript
-```
+<h3 align="center">
+    Trilha ReactJS <img src="./.github/logo-react.svg" height="15" alt="logo react">
+</h3>
 
-### Install Dependencies
+## 🚀 Tecnologias
 
-```
-$ cd my-app
+Este projeto foi construído utilizando:
 
-# using yarn or npm
-$ yarn (or `npm install`)
+- [ReactJS](https://reactjs.org/)
+- [ElectronJS](https://www.electronjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Next.js](https://nextjs.org/)
 
-# using pnpm
-$ pnpm install --shamefully-hoist
-```
+## 📢 Contribuição
 
-### Use it
+Está aplicação foi construida no evento NLW#5 da Rocketseat, que disponibilizou video aulas do projeto **Podcastr**.
 
-```
-# development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
+Feito com 💜 by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/YxU7fJT)
 
-# production build
-$ yarn build (or `npm run build` or `pnpm run build`)
-```
+---
+
+Feito com 💜 por [Andre Sampaio](https://github.com/apsampaio) <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">

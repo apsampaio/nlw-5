@@ -73,7 +73,15 @@ export function PlayerContextProvider({
   const hasNext = currentEpisodeIndex + 1 < episodeList.length;
 
   const playNext = () => {
-    if (hasNext) setCurrentEpisodeIndex(currentEpisodeIndex + 1);
+    if (isShuffling) {
+      const nextRandomEpisodeIndex = Math.floor(
+        Math.random() * episodeList.length
+      );
+
+      setCurrentEpisodeIndex(nextRandomEpisodeIndex);
+    } else if (hasNext) {
+      setCurrentEpisodeIndex(currentEpisodeIndex + 1);
+    }
   };
 
   const playPrevious = () => {

@@ -31,6 +31,24 @@ Este projeto foi construído utilizando:
 - [Next.js](https://nextjs.org/)
 - [Sass](https://sass-lang.com/)
 
+## 🏃‍♂ Rodando Projeto
+
+### ⛅ Iniciar Fake API
+
+`yarn server` ou `npm start server`
+
+### 🧱 Iniciar Aplicação Electron em Desenvolvimento
+
+`yarn dev` ou `npm start dev`
+
+### 🏰 Criar Build da Aplicação
+
+`yarn build` ou `npm start build`
+
+### 💿 Instalar Build da Aplicação
+
+`yarn postinstall` ou `npm start postinstall`
+
 ## 📢 Contribuição
 
 Está aplicação foi construida no evento NLW#5 da Rocketseat, que disponibilizou video aulas do projeto **Podcastr**.
